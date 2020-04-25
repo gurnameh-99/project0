@@ -1,0 +1,8 @@
+.footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  background:linear-gradient(to top, rgba(255, 255, 250, 0.8), rgba(35, 20, 20, 0.5));
+  width: 100%;
+  text-align: center;
+}

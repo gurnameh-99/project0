@@ -1,0 +1,23 @@
+.footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  background:linear-gradient(to top, rgba(255, 255, 250, 0.8), rgba(35, 20, 20, 0.5));
+  width: 100%;
+  text-align: center;
+}
+@mixin heading-text{
+  color: #827048;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#heading{
+  @include heading-text;
+
+}
+body{
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(215,226,246,0.5214460784313726) 100%);
+}

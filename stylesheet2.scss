@@ -21,9 +21,6 @@
 .pgtitle{
   @include heading-text;
 }
-body{
-background-color: #C0C0C0;
-}
 
 .grad{
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(215,226,246,0.5214460784313726) 100%);
@@ -82,8 +79,13 @@ body {
   z-index: 10;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 499px) {
   body {
     background-color: lightblue;
   }
 }
+@media (min-width: 500px) {
+  body {
+      background-color: #C0C0C0;
+  }
+  }
